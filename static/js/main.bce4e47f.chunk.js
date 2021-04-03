@@ -1,0 +1,2 @@
+(this["webpackJsonpgoogle-keep-clone"]=this["webpackJsonpgoogle-keep-clone"]||[]).push([[0],{11:function(e,n,c){"use strict";c.r(n);var t=c(1),o=c.n(t),s=c(3),i=c.n(s),r=(c(8),c(9),c(0));var a=function(){return Object(r.jsx)("div",{className:"App",children:Object(r.jsx)("div",{className:"header-file"})})};i.a.render(Object(r.jsx)(o.a.StrictMode,{children:Object(r.jsx)(a,{})}),document.getElementById("root"))},8:function(e,n,c){},9:function(e,n,c){}},[[11,1,2]]]);
+//# sourceMappingURL=main.bce4e47f.chunk.js.map
