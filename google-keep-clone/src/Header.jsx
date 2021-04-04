@@ -1,11 +1,9 @@
 import React from 'react';
 import RefreshIcon from '@material-ui/icons/Refresh';
-import FormControl from '@material-ui/core/FormControl';
 import './index.css';
 
-export const Header = () => {
+const Header = () => {
   return (
-    <>
     <div className="container container-fluid">
       <div className="header-left">
         <div className="logo-header">
@@ -14,11 +12,9 @@ export const Header = () => {
         </div>
       </div>
       <div className="header-right">
-        {/* insert form control */}
         <RefreshIcon />
       </div>
     </div>
-    </>
   );
 };
-export default Header;
+export default Header;  
