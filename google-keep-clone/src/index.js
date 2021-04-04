@@ -3,11 +3,13 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import Header from './Header';
+import CreateNote from './CreateNote';
 
 ReactDOM.render(
   <>
     <Header />
     <App />
+    <CreateNote />
   </>,
   document.getElementById('root')
 );
