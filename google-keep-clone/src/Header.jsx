@@ -12,9 +12,13 @@ const Header = () => {
         </div>
       </div>
       <div className="header-right">
+        <div class="mb-3">
+      <input type="text" class="form-control" placeholder="Enter Text.." />
+      </div>
         <RefreshIcon />
       </div>
     </div>
   );
 };
 export default Header;  
+  

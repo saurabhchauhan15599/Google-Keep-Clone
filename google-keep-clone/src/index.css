@@ -1,19 +1,15 @@
 body {
-  -webkit-box-shadow: inset 1px 1px 0 rgb(0 0 0 / 10%),
-  inset 0 -1px 0 rgb(0 0 0 / 7%);
-  margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #202124 !important;
-  color:#e8eaed !important;
+  color: #e8eaed !important;
 }
-.container{
-  margin:0 auto;
-  padding:0px;
+.container {
+  margin: 0 auto;
+  padding: 0px;
   box-sizing: border-box;
-  font-family:"Roboto Mono";
-  border-bottom: solid 1.5px #e8eaed;
-  height:85px;
+  font-family: "Roboto Mono";
+  height: 85px;
 }
 .logo-header {
   float: left;
@@ -21,21 +17,46 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin:10px;
-  padding-left:30px;  
+  margin: 10px;
+  padding-left: 30px;
 }
-.logo-header img{
+.logo-header img {
   height: 70px;
   width: auto;
-  padding-left:50px;
+  padding-left: 50px;
 }
-.header-right{
+.header-right {
   float: right;
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
-  margin:10px;
-  padding-right:200px;
-  padding-top:20px;
+  margin: 10px;
+  padding-right: 200px;
+  padding-top: 20px;
+}
+.mb-3 {
+  padding-right: 100px;
+}
+input {
+  width: fit-content;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  padding-top: 50px;
+}
+input,
+textarea {
+  width: 50%;
+  padding: 5px;
+  background-color: inherit;
+  outline: none;
+  border: none;
+  box-shadow: 0 3px 5px rgb(0 0 0 / 20%);
+  border: 1px solid #5f6368;
 }
