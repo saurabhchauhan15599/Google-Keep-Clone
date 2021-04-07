@@ -1,8 +1,7 @@
 body {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   background-color: #202124 !important;
   color: #e8eaed !important;
+  caret-color: #e8eaed !important;
 }
 .container {
   margin: 0 auto;
@@ -59,4 +58,18 @@ textarea {
   border: none;
   box-shadow: 0 3px 5px rgb(0 0 0 / 20%);
   border: 1px solid #5f6368;
+  border-radius: 10px;
+  color: #e8eaed;
+}
+.button-plus {
+  position: absolute;
+  left: 870px;
+  top: 240px;
+  background: #e8eaed;
+  color: #202124;
+  border-radius: 100%;
+}
+input {
+  border-bottom: none !important;
+  outline: none !important;
 }
